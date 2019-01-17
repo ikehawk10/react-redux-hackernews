@@ -21,4 +21,4 @@ const stories = [
   },
 ];
 
-ReactDOM.render(<App stories={stories} />, document.querySelector('#root'));
+ReactDOM.render(<App stories={stories} onArchive={() => {}} />, document.querySelector('#root'));
